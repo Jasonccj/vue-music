@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img width="150" height="150"  src="https://github.com/Jasonccj/vue-music/blob/master/src/common/image/project.jfif">
+  <img width="150"eight="150"  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533058717761&di=161d19751a8536d50fa99069e12af046&imgtype=0&src=http%3A%2F%2Fimage.coolapk.com%2Fdiscovery%2F2016%2F1009%2F480069_1476026104_6583.png">
 </div>
 
 # vue-music
