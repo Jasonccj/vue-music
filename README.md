@@ -32,3 +32,17 @@ npm install  -->  npm run dev
     ├── store  空文件夹,待开发
 ```
 
+## 第一章
+
+### 页面入口及header组件的开发
+ <meta name="viewport"                        移动端常用的基本配置
+
+"dependencies": {
+    "babel-runtime": "^6.0.0",                对es的语法做一些转译
+     "fastclick": "^1.0.6"                    解决移动端点击300ms的延迟
+},               
+
+"devDependencies": {
+    "babel-polyfill": "^6.2.0",               对es6的一些api做转译
+
+m--hader                                      header组件
