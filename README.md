@@ -46,3 +46,30 @@ npm install  -->  npm run dev
     "babel-polyfill": "^6.2.0",               对es6的一些api做转译
 
 m--hader                                      header组件
+
+### 路由配置及顶导组件开发
+
+4个组件界面,通过路由切换
+main.js中注册路由 并在vue中引入
+    import router from './router'
+
+router/index.js 配置及使用路由
+    import Router from 'vue-router'
+    Vue.use(Router)
+
+通过 
+routes: [{
+      path: '/',         //默认首次进入
+      redirect: '/recommend'
+},{
+    path: '/recommend',
+    component: Recommend
+}]
+配置跳转路径
+
+路由切换
+<router-link tag="要渲染成什么dom,默认为a标签" to="跳转路由路径,例如:'/recommend'" ></router-link>
+css 中 &.router-link-active 当路由被触发时,可做的css动作
+
+路由显示
+<router-view></router-view>
